@@ -131,11 +131,18 @@ n_anom = int(is_anom(lat["warning"]).sum()) if not lat.empty else 0
 if page == "🏠 Overview":
     c = st.columns([3, 1])
     with c[0]:
-        st.markdown("### Selamat datang kembali! 👋")
-        st.markdown("<span class='muted'>Berikut kondisi pasar lintas domain secara real-time.</span>", unsafe_allow_html=True)
+        st.markdown("### Market Intelligence Overview")
+        st.markdown(
+            "<span class='muted'>Analisis terpadu pergerakan harga kripto (BTC), saham (BBCA), "
+            "energi (minyak mentah & gas alam), dan pangan (gula, gandum, jagung) — "
+            "dengan sinyal anomali serta proyeksi probabilistik dalam satu panel.</span>",
+            unsafe_allow_html=True,
+        )
     with c[1]:
-        st.markdown(f"<div style='text-align:right;color:var(--muted);font-size:.85rem;'>📅 {pd.Timestamp.now():%d %b %Y • %H:%M}</div>", unsafe_allow_html=True)
-
+        st.markdown(
+            f"<div style='text-align:right;color:var(--muted);font-size:.85rem;'>📅 {pd.Timestamp.now():%d %b %Y • %H:%M}</div>",
+            unsafe_allow_html=True,
+        )
     k = st.columns(4)
     mape_avg = mt["mape_pct"].mean() if not mt.empty else np.nan
     cov = ev["within_80"].dropna().mean() * 100 if not ev.empty and "within_80" in ev.columns else np.nan
