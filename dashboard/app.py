@@ -61,7 +61,17 @@ def md_to_html(text):
 # ================= DATA LOADING =================
 @st.cache_data(ttl=60)
 def load_raw():
-    frames = [pd.read_csv(f, parse_dates=["timestamp"]) for f in sorted(RAW_DIR.glob("*.csv"))]
+    frames = []
+    for f in sorted(RAW_DIR.glob("*.csv")):
+        df = pd.read_csv(f, parse_dates=["timestamp"])
+        if "series_id" not in df.columns or "value" not in df.columns:
+            continue
+        df = df.dropna(subset=["series_id", "value"])
+        df["series_id"] = df["series_id"].astype(str).str.strip()
+        df = df[~df["series_id"].str.match(r"^\d+(\.\d+)?$")]  # buang baris geser
+        df = df[df["series_id"] != ""]
+        df["domain"] = df["domain"].astype(str)
+        frames.append(df)
     return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
 
 @st.cache_data(ttl=60)
