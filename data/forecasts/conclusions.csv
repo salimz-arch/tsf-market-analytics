@@ -1,0 +1,59 @@
+created_at,engine,context_hash,conclusion
+2026-08-07 02:30:40.189541,rule-based,38dd1afa1f1ddcd0fc1f9dc34784ed87,"*RINGKASAN*: Terdeteksi 4 anomali dari 10 series; lainnya dalam pola normal.
+*ENERGI*: NATGAS_GLOBAL ANOMALI (-15.27% dari pola normal); OIL_GLOBAL ANOMALI (4.64% dari pola normal); LOAD_JKT down dalam batas normal.
+*PANGAN*: CHILI_JKT up dalam batas normal; RICE_JKT flat dalam batas normal; CORN_GLOBAL down dalam batas normal; SUGAR_GLOBAL ANOMALI (-12.29% dari pola normal); WHEAT_GLOBAL ANOMALI (3.51% dari pola normal).
+*FINANSIAL*: BTC_USD up dalam batas normal. BBCA_JK flat dalam batas normal.
+*AKSI*: Prioritaskan pemantauan series berstatus ANOMALI; series stabil tidak memerlukan tindakan."
+2026-08-07 02:35:16.631590,rule-based,38dd1afa1f1ddcd0fc1f9dc34784ed87,"*RINGKASAN*: Terdeteksi 4 anomali dari 10 series; lainnya dalam pola normal.
+*ENERGI*: NATGAS_GLOBAL ANOMALI (-15.27% dari pola normal); OIL_GLOBAL ANOMALI (4.64% dari pola normal); LOAD_JKT down dalam batas normal.
+*PANGAN*: CHILI_JKT up dalam batas normal; RICE_JKT flat dalam batas normal; CORN_GLOBAL down dalam batas normal; SUGAR_GLOBAL ANOMALI (-12.29% dari pola normal); WHEAT_GLOBAL ANOMALI (3.51% dari pola normal).
+*FINANSIAL*: BTC_USD up dalam batas normal. BBCA_JK flat dalam batas normal.
+*AKSI*: Prioritaskan pemantauan series berstatus ANOMALI; series stabil tidak memerlukan tindakan."
+2026-08-07 03:04:12.501861,rule-based,38dd1afa1f1ddcd0fc1f9dc34784ed87,"*RINGKASAN*: Terdeteksi 4 anomali dari 10 series; lainnya dalam pola normal.
+*ENERGI*: NATGAS_GLOBAL ANOMALI (-15.27% dari pola normal); OIL_GLOBAL ANOMALI (4.64% dari pola normal); LOAD_JKT down dalam batas normal.
+*PANGAN*: CHILI_JKT up dalam batas normal; RICE_JKT flat dalam batas normal; CORN_GLOBAL down dalam batas normal; SUGAR_GLOBAL ANOMALI (-12.29% dari pola normal); WHEAT_GLOBAL ANOMALI (3.51% dari pola normal).
+*FINANSIAL*: BTC_USD up dalam batas normal. BBCA_JK flat dalam batas normal.
+*AKSI*: Prioritaskan pemantauan series berstatus ANOMALI; series stabil tidak memerlukan tindakan."
+2026-08-07 03:06:07.572307,rule-based,38dd1afa1f1ddcd0fc1f9dc34784ed87,"*RINGKASAN*: Terdeteksi 4 anomali dari 10 series; lainnya dalam pola normal.
+*ENERGI*: NATGAS_GLOBAL ANOMALI (-15.27% dari pola normal); OIL_GLOBAL ANOMALI (4.64% dari pola normal); LOAD_JKT down dalam batas normal.
+*PANGAN*: CHILI_JKT up dalam batas normal; RICE_JKT flat dalam batas normal; CORN_GLOBAL down dalam batas normal; SUGAR_GLOBAL ANOMALI (-12.29% dari pola normal); WHEAT_GLOBAL ANOMALI (3.51% dari pola normal).
+*FINANSIAL*: BTC_USD up dalam batas normal. BBCA_JK flat dalam batas normal.
+*AKSI*: Prioritaskan pemantauan series berstatus ANOMALI; series stabil tidak memerlukan tindakan."
+2026-08-07 03:09:29.848215,rule-based,38dd1afa1f1ddcd0fc1f9dc34784ed87,"*RINGKASAN*: Terdeteksi 4 anomali dari 10 series; lainnya dalam pola normal.
+*ENERGI*: NATGAS_GLOBAL ANOMALI (-15.27% dari pola normal); OIL_GLOBAL ANOMALI (4.64% dari pola normal); LOAD_JKT down dalam batas normal.
+*PANGAN*: CHILI_JKT up dalam batas normal; RICE_JKT flat dalam batas normal; CORN_GLOBAL down dalam batas normal; SUGAR_GLOBAL ANOMALI (-12.29% dari pola normal); WHEAT_GLOBAL ANOMALI (3.51% dari pola normal).
+*FINANSIAL*: BTC_USD up dalam batas normal. BBCA_JK flat dalam batas normal.
+*AKSI*: Prioritaskan pemantauan series berstatus ANOMALI; series stabil tidak memerlukan tindakan."
+2026-08-07 03:20:20.846673,rule-based,38dd1afa1f1ddcd0fc1f9dc34784ed87,"*RINGKASAN*: Terdeteksi 4 anomali dari 10 series; lainnya dalam pola normal.
+*ENERGI*: NATGAS_GLOBAL ANOMALI (-15.27% dari pola normal); OIL_GLOBAL ANOMALI (4.64% dari pola normal); LOAD_JKT down dalam batas normal.
+*PANGAN*: CHILI_JKT up dalam batas normal; RICE_JKT flat dalam batas normal; CORN_GLOBAL down dalam batas normal; SUGAR_GLOBAL ANOMALI (-12.29% dari pola normal); WHEAT_GLOBAL ANOMALI (3.51% dari pola normal).
+*FINANSIAL*: BTC_USD up dalam batas normal. BBCA_JK flat dalam batas normal.
+*AKSI*: Prioritaskan pemantauan series berstatus ANOMALI; series stabil tidak memerlukan tindakan."
+2026-08-07 03:39:01.541819,groq,c19e42ebefe31b6f809fcc7c82a8cf75,"*RINGKASAN*: Beberapa komoditas pangan dan energi menunjukkan sinyal turun, sedangkan beberapa saham dan kripto stabil. Anomali terdeteksi pada beberapa komoditas energi dan pangan.
+*ENERGI*: Harga gas alam dan minyak global menunjukkan anomali dengan sinyal naik dan turun, sedangkan beban listrik di Jakarta stabil.
+*PANGAN*: Beberapa komoditas pangan seperti gula, jagung, dan gandum menunjukkan anomali dengan sinyal turun, sedangkan harga beras dan cabe di Jakarta stabil.
+*FINANSIAL*: Harga saham BBCA dan kripto BTC stabil dengan sinyal flat, sedangkan beberapa komoditas menunjukkan pergerakan turun.
+*AKSI*: Perlu pemantauan lebih lanjut pada komoditas yang menunjukkan anomali, serta evaluasi strategi investasi pada saham dan kripto yang stabil."
+2026-08-07 03:50:04.130282,groq,5ab3dbda428de058cb49f9ede3896c5c,"#### 📊 RINGKASAN EKSEKUTIF
+Kondisi keseluruhan menunjukkan adanya beberapa anomali pada series energi dan pangan, dengan arah dominan menurun pada beberapa komoditas. Tingkat risiko dinilai SEDANG karena adanya beberapa anomali dengan deviasi yang signifikan.
+
+#### ⚡ ENERGI
+* **NATGAS_GLOBAL**: naik & -15.27% — status ANOMALI, implikasi peningkatan harga yang tidak terduga.
+* **OIL_GLOBAL**: turun & 4.64% — status ANOMALI, implikasi penurunan harga yang tidak terduga.
+* **LOAD_JKT**: stabil.
+
+#### 🌾 PANGAN
+* **SUGAR_GLOBAL**: turun & -12.29% — status ANOMALI, implikasi penurunan harga yang tidak terduga.
+* **WHEAT_GLOBAL**: turun & 3.51% — status ANOMALI, implikasi penurunan harga yang tidak terduga.
+* **CHILI_JKT**: stabil.
+* **RICE_JKT**: stabil.
+* **CORN_GLOBAL**: stabil.
+
+#### 💹 FINANSIAL
+* **BTC_USD**: stabil.
+* **BBCA_JK**: stabil.
+
+#### 🎯 REKOMENDASI
+1. Perhatikan kenaikan harga **NATGAS_GLOBAL** yang tidak terduga dan siapkan strategi untuk menghadapi potensi fluktuasi harga.
+2. Antisipasi penurunan harga **SUGAR_GLOBAL** dan **WHEAT_GLOBAL** yang tidak terduga dan sesuaikan strategi pengadaan atau penjualan.
+3. Pantau perkembangan harga **OIL_GLOBAL** yang tidak terduga dan siapkan strategi untuk menghadapi potensi dampak pada industri terkait."

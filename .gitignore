@@ -1,0 +1,42 @@
+# ---------- SECRETS (WAJIB) ----------
+.env
+.env.*
+*.pem
+secrets.json
+.streamlit/secrets.toml
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- Virtual environment ----------
+.venv/
+venv/
+env/
+
+# ---------- IDE & OS ----------
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# ---------- Data & model artifacts ----------
+# DI-INCLUDE agar deploy (Streamlit Cloud / Docker) langsung hidup.
+# Uncomment baris-baris di bawah HANYA jika repo terlalu besar:
+# data/raw/*.csv
+# data/processed/
+# data/forecasts/
+# data/raw_backup/
+# models/*.joblib
+# models/metrics.csv
+
+# ---------- Logs ----------
+*.log
