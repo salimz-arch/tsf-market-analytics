@@ -151,32 +151,6 @@ if page == "🏠 Overview":
     k[2].metric("MAPE Rata-rata", f"{mape_avg:.2f}%", "validasi")
     k[3].metric("Coverage Live", f"{cov:.0f}%" if pd.notna(cov) else "-", "target 80%")
 
-    # ---- BANNER PERINGATAN DINI (keterangan lengkap) ----
-    act = lat[is_anom(lat["warning"])] if not lat.empty else lat
-    if act is not None and not act.empty:
-        for _, r in act.iterrows():
-            dev = r.get("deviation_pct")
-            dev_txt = f"{dev:+.2f}" if pd.notna(dev) else "-"
-            pred_txt = _f(r.get("predicted_next_value"))
-            lo_txt = _f(r.get("lower_bound"))
-            hi_txt = _f(r.get("upper_bound"))
-            sid = r["series_id"]
-            dom = r["domain"]
-            st.markdown(
-                f"<div style='background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.4);"
-                f"border-left:4px solid var(--amber);border-radius:12px;padding:12px 16px;margin:0 0 10px 0;'>"
-                f"<b style='color:var(--amber);'>⚠️ {sid}</b> <span class='muted'>({dom})</span> — "
-                f"terdeteksi <b>ANOMALI</b>: prediksi <b>{pred_txt}</b> (interval {lo_txt} – {hi_txt}), "
-                f"menyimpang <b>{dev_txt}%</b> dari pola musiman normal.</div>",
-                unsafe_allow_html=True,
-            )
-    else:
-        st.markdown(
-            "<div style='background:rgba(34,197,94,.08);border:1px solid rgba(34,197,94,.35);"
-            "border-radius:12px;padding:10px 16px;margin:0 0 10px 0;color:var(--green);'>"
-            "✅ Tidak ada anomali di luar pola musiman.</div>",
-            unsafe_allow_html=True,
-        )
 
     g = st.columns([2, 1], gap="medium")
     with g[0]:
