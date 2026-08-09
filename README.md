@@ -9,6 +9,9 @@ notifikasi Telegram.
 
 ---
 
+## 👌 Check the Results
+https://salimz-arch-tsf-market-analytics-dashboardapp-icldw3.streamlit.app/
+
 ## ✨ Fitur Lengkap
 
 ### 1. Unified Multi-Domain Pipeline
@@ -117,7 +120,8 @@ Streamlit dashboard │ FastAPI │ Telegram
 ## 🚀 Instalasi & Menjalankan
 
 ```bash
-git clone <tsf-market-analytics> && cd time-series-forecasting
+git clone https://github.com/salimz-arch/tsf-market-analytics.git
+cd time-series-forecasting
 python -m venv .venv && .venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 
