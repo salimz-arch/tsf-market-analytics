@@ -15728,3 +15728,22 @@ Pasar berada dalam kondisi risiko SEDANG dengan 2 anomali dari 10 series terpant
 1. Pantau ketat OIL_GLOBAL, SUGAR_GLOBAL hingga deviasi kembali ke batas normal.
 2. Tinjau eksposur biaya/posisi yang sensitif terhadap series berstatus ANOMALI.
 3. Evaluasi ulang pada siklus berikutnya; validasi model jika coverage live < 70%."
+2026-11-27 07:48:06.175570,rule-based,15bb5d0c0ca809245cc10ee3aadabc5a,"#### 📊 RINGKASAN EKSEKUTIF
+Pasar berada dalam kondisi risiko SEDANG dengan 2 anomali dari 10 series terpantau. Fokus diarahkan pada series berstatus ANOMALI.
+#### ⚡ ENERGI
+- **NATGAS_GLOBAL**: down dalam batas normal.
+- **OIL_GLOBAL**: DOWN dengan deviasi 12.71% — **ANOMALI**, perlu pemantauan ketat.
+- **LOAD_JKT**: down dalam batas normal.
+#### 🌾 PANGAN
+- **CHILI_JKT**: up dalam batas normal.
+- **RICE_JKT**: flat dalam batas normal.
+- **CORN_GLOBAL**: flat dalam batas normal.
+- **SUGAR_GLOBAL**: DOWN dengan deviasi 6.09% — **ANOMALI**, perlu pemantauan ketat.
+- **WHEAT_GLOBAL**: up dalam batas normal.
+#### 💹 FINANSIAL
+- **BTC_USD**: up dalam batas normal.
+- **BBCA_JK**: down dalam batas normal.
+#### 🎯 REKOMENDASI
+1. Pantau ketat OIL_GLOBAL, SUGAR_GLOBAL hingga deviasi kembali ke batas normal.
+2. Tinjau eksposur biaya/posisi yang sensitif terhadap series berstatus ANOMALI.
+3. Evaluasi ulang pada siklus berikutnya; validasi model jika coverage live < 70%."
